@@ -1,2 +1,2 @@
 # OwnCode
-Past low-level code recode.
+Hope I can recode something.
