@@ -1,0 +1,41 @@
+#  优先级 yml>yaml>properties
+# 配置文件的优先级 文件夹中的config/yml >文件夹下的yml >resources下的config/yml >resources下的yml
+#设置启用的环境
+spring:
+  profiles:
+    active: ${profile.active}
+#logging:
+#  level:
+#    root: warn
+  # 控制日志输出级别
+enterprise:
+  category: play
+  play:
+    - tencent
+    - neteasy
+
+---
+#开发
+spring:
+  config:
+    activate:
+      on-profile: dev
+server:
+  port: 81
+
+---
+#生产
+spring:
+  config:
+    activate:
+      on-profile: pro
+server:
+  port: 82
+---
+#测试
+spring:
+  config:
+    activate:
+      on-profile: test
+server:
+  port: 83
