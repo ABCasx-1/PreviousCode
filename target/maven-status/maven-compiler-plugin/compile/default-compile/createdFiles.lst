@@ -1,0 +1,15 @@
+service\impl\UserServiceImpl.class
+web\BrandServlet.class
+mapper\BrandMapper.class
+service\UserService.class
+web\checkCodeServlet.class
+mapper\UserMapper.class
+web\UserServlet.class
+javaBean\Brand.class
+utils\sqlSessionFactoryUtils.class
+javaBean\PageBean.class
+service\BrandService.class
+web\BaseServlet.class
+javaBean\User.class
+service\impl\BrandServiceImpl.class
+utils\CheckCodeUtil.class
