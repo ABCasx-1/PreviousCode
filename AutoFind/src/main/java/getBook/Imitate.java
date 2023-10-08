@@ -20,8 +20,8 @@ import java.io.IOException;
  */
 public class Imitate {
     public static String getCode(String url) {
-        String username = "1673100";
-        String password = "TianCai.54";
+        String username = "null";
+        String password = "null";
         // 创建认证凭证提供者
         CredentialsProvider creedsProvider = new BasicCredentialsProvider();
         creedsProvider.setCredentials(AuthScope.ANY, new UsernamePasswordCredentials(username, password));
